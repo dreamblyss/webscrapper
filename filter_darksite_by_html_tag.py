@@ -80,8 +80,6 @@ if res.status_code == 200:
 
 else:
         print(f'Something went wrong for this {URL} with status code: {res.status_code}')
-
-
 '''
     data = requests.get("<<.onion url>>", proxies=proxies).text
     print(data)
